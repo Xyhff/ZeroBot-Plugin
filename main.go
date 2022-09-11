@@ -123,7 +123,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"        // 猜单词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
 
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -215,8 +215,8 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2651553723)
-	 sus = append(sus, 2651553723)
+	sus = append(sus, 2651553723)
+	sus = append(sus, 2651553723)
 
 	if *runcfg != "" {
 		f, err := os.Open(*runcfg)
