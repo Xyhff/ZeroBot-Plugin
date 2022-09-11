@@ -80,9 +80,9 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"         // 好友申请群聊邀请事件处理
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"          // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"      // 笑话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"    // 原神抽卡
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"        
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"   // 笑话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin" // 原神抽卡
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"     // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic" // 猜歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"         // 炉石
