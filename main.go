@@ -58,9 +58,9 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"         // ahsai tts
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"      // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"        
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"    // ahsai tts
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false" // 服务器监控
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           // base16384加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         // 百度一下
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"      // b站相关
@@ -79,43 +79,43 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/epidemic"      // 城市疫情查询
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"         // 好友申请群聊邀请事件处理
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"          // 渲染任意文字到图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"       
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"         // 笑话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"       // 原神抽卡
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"  
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"        // 注入指令
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"        // 煎蛋网无聊图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/juejuezi"      // 绝绝子生成器
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"       
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"      // 笑话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"    // 原神抽卡
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"        // 制图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"     // 搜索GitHub仓库
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic" // 猜歌
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"         // 炉石
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"      // 百人一首
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"   // 注入指令
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"   // 煎蛋网无聊图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/juejuezi" // 绝绝子生成器
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/midicreate"    // 简易midi音乐制作
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moegoe"        // 日韩 VITS 模型拟声
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu"          // 摸鱼
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu_calendar" // 摸鱼人日历
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/music"         
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu"    // 本地涩图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife"    // 本地老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"       // 拼音首字母缩写释义工具
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"       // 日语语法学习
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"         // 铅笔小说网搜索
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"          // nsfw图片识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"       // 浅草寺求签
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"        // 一群一天一夫一妻制群老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"        // 投胎
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"       // 在线运行代码
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"      
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"         // 叔叔的AI二次元图片放大
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"         // 分数
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"      
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"       // 沙雕app
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"       // 测定
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"         // 抽塔罗牌
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tiangou"       // 舔狗日记
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tracemoe"      
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/music"
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu" // 本地涩图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife" // 本地老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"    // 拼音首字母缩写释义工具
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"    // 日语语法学习
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"      // 铅笔小说网搜索
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"       // nsfw图片识别
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"    // 浅草寺求签
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"     // 一群一天一夫一妻制群老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"     // 投胎
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"    // 在线运行代码
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale" // 叔叔的AI二次元图片放大
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score" // 分数
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao" // 沙雕app
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan" // 测定
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"   // 抽塔罗牌
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tiangou" // 舔狗日记
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tracemoe"
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/translation"   // 翻译
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/vtb_quotation" // vtb语录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wangyiyun"     // 网易云音乐热评
@@ -215,7 +215,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2651553723)
+	sus = append(sus, 2651553723)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
